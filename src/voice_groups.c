@@ -9007,6 +9007,7 @@ const u8 KeySplitTable5[] =
 
 #include "data/universal_voicegroup.h"
 #include "data/acimut_gm_drumkit.h"
+#include "data/acimut_gm_056_trumpet.h"
 
 //--------------------------------------------------------------
 //  Universal Voicegroup FE7
@@ -9215,7 +9216,7 @@ const union VoiceGroup voicegroup200[] =
     [VOICE_OOHS]            = VOICE_KEYSPLIT(voicegroup_FE7_VoiceOohs, KeySplitTable24),
     [SYNTH_VOICE]           = VOICE_KEYSPLIT(voicegroup_FE7_SynthVoice, KeySplitTable11),
     [ORCHESTRA_HIT]         = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_055_orchestra_hit, 255, 253, 0, 235),
-    [TRUMPET]               = VOICE_KEYSPLIT(voicegroup_FE7_Trumpet, KeySplitTable21),
+    [TRUMPET]               = VOICE_KEYSPLIT(voicegroup_AGM_060_Trumpet, KeySplitTable_AGM_060_Trumpet),
     [TROMBONE]              = VOICE_KEYSPLIT(voicegroup_FE7_Trombone, KeySplitTable21),
     [TUBA]                  = VOICE_KEYSPLIT(voicegroup_FE7_Tuba, KeySplitTable26),
     [MUTED_TRUMPET]         = VOICE_KEYSPLIT(voicegroup_FE7_MutedTrumpet, KeySplitTable27),
@@ -9348,7 +9349,7 @@ const union VoiceGroup voicegroup208[] =
     [VOICE_OOHS]            = VOICE_KEYSPLIT(voicegroup_FE7_VoiceOohs, KeySplitTable24),
     [SYNTH_VOICE]           = VOICE_KEYSPLIT(voicegroup_FE7_SynthVoice, KeySplitTable11),
     [ORCHESTRA_HIT]         = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_055_orchestra_hit, 255, 253, 0, 235),
-    [TRUMPET]               = VOICE_KEYSPLIT(voicegroup_FE7_Trumpet, KeySplitTable21),
+    [TRUMPET]               = VOICE_KEYSPLIT(voicegroup_AGM_060_Trumpet, KeySplitTable_AGM_060_Trumpet),
     [TROMBONE]              = VOICE_KEYSPLIT(voicegroup_FE7_Trombone, KeySplitTable21),
     [TUBA]                  = VOICE_KEYSPLIT(voicegroup_FE7_Tuba, KeySplitTable26),
     [MUTED_TRUMPET]         = VOICE_KEYSPLIT(voicegroup_FE7_MutedTrumpet, KeySplitTable27),
@@ -9481,7 +9482,7 @@ const union VoiceGroup voicegroup216[] =
     [VOICE_OOHS]            = VOICE_KEYSPLIT(voicegroup_FE7_VoiceOohs, KeySplitTable24),
     [SYNTH_VOICE]           = VOICE_KEYSPLIT(voicegroup_FE7_SynthVoice, KeySplitTable11),
     [ORCHESTRA_HIT]         = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_055_orchestra_hit, 255, 253, 0, 235),
-    [TRUMPET]               = VOICE_KEYSPLIT(voicegroup_FE7_Trumpet, KeySplitTable21),
+    [TRUMPET]               = VOICE_KEYSPLIT(voicegroup_AGM_060_Trumpet, KeySplitTable_AGM_060_Trumpet),
     [TROMBONE]              = VOICE_KEYSPLIT(voicegroup_FE7_Trombone, KeySplitTable21),
     [TUBA]                  = VOICE_KEYSPLIT(voicegroup_FE7_Tuba, KeySplitTable26),
     [MUTED_TRUMPET]         = VOICE_KEYSPLIT(voicegroup_FE7_MutedTrumpet, KeySplitTable27),
@@ -9614,7 +9615,7 @@ const union VoiceGroup voicegroup327[] =
     [VOICE_OOHS]            = VOICE_KEYSPLIT(voicegroup_FE7_VoiceOohs, KeySplitTable24),
     [SYNTH_VOICE]           = VOICE_KEYSPLIT(voicegroup_FE7_SynthVoice, KeySplitTable11),
     [ORCHESTRA_HIT]         = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_055_orchestra_hit, 255, 253, 0, 235),
-    [TRUMPET]               = VOICE_KEYSPLIT(voicegroup_FE7_Trumpet, KeySplitTable21),
+    [TRUMPET]               = VOICE_KEYSPLIT(voicegroup_AGM_060_Trumpet, KeySplitTable_AGM_060_Trumpet),
     [TROMBONE]              = VOICE_KEYSPLIT(voicegroup_FE7_Trombone, KeySplitTable21),
     [TUBA]                  = VOICE_KEYSPLIT(voicegroup_FE7_Tuba, KeySplitTable26),
     [MUTED_TRUMPET]         = VOICE_KEYSPLIT(voicegroup_FE7_MutedTrumpet, KeySplitTable27),

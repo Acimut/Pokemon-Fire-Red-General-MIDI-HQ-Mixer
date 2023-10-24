@@ -1001,3 +1001,16 @@ ALIGNED(4) const s8 gDirectSoundWaveData_Acimut_GM_Standard_85_castanets_gm2[] =
 ALIGNED(4) const s8 gDirectSoundWaveData_Acimut_GM_Standard_86_mute_surdo_gm2[] = INCBIN_S8("sound/direct_sound_samples/Acimut_GM/Acimut_Drumkit_86_Roland-SC-88-Mute-Surdo.bin");
 ALIGNED(4) const s8 gDirectSoundWaveData_Acimut_GM_Standard_87_open_surdo_gm2[] = INCBIN_S8("sound/direct_sound_samples/Acimut_GM/Acimut_Drumkit_87_Roland-SC-88-Open-Surdo.bin");
 
+//--------------------------------------------------------------
+// ACIMUT'S Trumpet 21024Hz
+//--------------------------------------------------------------
+
+ALIGNED(4) const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_55[] = INCBIN_S8("sound/direct_sound_samples/Acimut_GM/AGM056_Trumpet_55.bin");
+ALIGNED(4) const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_60[] = INCBIN_S8("sound/direct_sound_samples/Acimut_GM/AGM056_Trumpet_60.bin");
+ALIGNED(4) const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_66[] = INCBIN_S8("sound/direct_sound_samples/Acimut_GM/AGM056_Trumpet_66.bin");
+ALIGNED(4) const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_75[] = INCBIN_S8("sound/direct_sound_samples/Acimut_GM/AGM056_Trumpet_75.bin");
+ALIGNED(4) const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_79[] = INCBIN_S8("sound/direct_sound_samples/Acimut_GM/AGM056_Trumpet_79.bin");
+ALIGNED(4) const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_83[] = INCBIN_S8("sound/direct_sound_samples/Acimut_GM/AGM056_Trumpet_83.bin");
+ALIGNED(4) const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_87[] = INCBIN_S8("sound/direct_sound_samples/Acimut_GM/AGM056_Trumpet_87.bin");
+ALIGNED(4) const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_88[] = INCBIN_S8("sound/direct_sound_samples/Acimut_GM/AGM056_Trumpet_88.bin");
+

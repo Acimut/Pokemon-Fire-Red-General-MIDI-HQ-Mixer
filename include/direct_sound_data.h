@@ -1001,4 +1001,17 @@ extern const s8 gDirectSoundWaveData_Acimut_GM_Standard_85_castanets_gm2[];
 extern const s8 gDirectSoundWaveData_Acimut_GM_Standard_86_mute_surdo_gm2[];
 extern const s8 gDirectSoundWaveData_Acimut_GM_Standard_87_open_surdo_gm2[];
 
+//--------------------------------------------------------------
+// ACIMUT'S Trumpet 21024Hz
+//--------------------------------------------------------------
+
+extern const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_55[];
+extern const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_60[];
+extern const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_66[];
+extern const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_75[];
+extern const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_79[];
+extern const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_83[];
+extern const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_87[];
+extern const s8 gDirectSoundWaveData_Acimut_GM_056_Trumpet_88[];
+
 #endif // GUARD_DIRECT_SOUND_DATA_H
