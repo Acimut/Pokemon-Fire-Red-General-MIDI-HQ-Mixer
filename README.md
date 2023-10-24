@@ -40,7 +40,7 @@ Esta inyección de código inserta el voicegroup universal de FE7 de Blazer + el
 
 3.  Compilan ejecutando make con su terminal, y una rom con la inyección aparecerá en una carpeta llamada build.
 
-    Nota: Si compilan desde Windows con CMD o Powershell, es posible compilar usando `make -jN`, donde pueden cambiar `N` por el número de hilos de su CPU reduciendo considerablemente el tiempo de compilación. Recomiendo compilar este proyecto desde Powershell (necesario tener devkitPro correctamente instalado). Por ejemplo, yo compilo desde Powershell usando el comando `time make -j6` para comprobar el tiempo que ocupa la compilación (cerca de 15 segundos con 6 hilos de CPU y almacenamiento SSD). No usar el comando time con CMD en este contexto.
+    Nota: Si compilan desde Windows con CMD o Powershell, es posible compilar usando `make -jN`, donde pueden cambiar `N` por el número de hilos de su CPU reduciendo considerablemente el tiempo de compilación. Recomiendo compilar este proyecto desde Powershell (necesario tener devkitPro correctamente instalado). Por ejemplo, yo compilo desde Powershell usando el comando `time make -j6` para comprobar el tiempo que ocupa la compilación (cerca de 30 segundos con 6 hilos de CPU y almacenamiento SSD). No usar el comando time con CMD en este contexto.
 
 4. En un script usar el special 0xB para visualizar el reproductor de música (pensado para hacer pruebas de sonido, no como una característica jugable).
 
