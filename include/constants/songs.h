@@ -352,6 +352,15 @@
 #define MUS_TRAINER_TOWER         344 // MUS_RG_T_TOWER
 #define MUS_SLOW_PALLET           345 // MUS_RG_SLOWMASARA
 #define MUS_TEACHY_TV_MENU        346 // MUS_RG_TVNOIZE
+//new music:
+#define MUS_DBZ_CHALA             347 // mus_dbz_chala
+#define MUS_DBZ_REC               348 // mus_dbz_rec
+#define MUS_DBZ_POWER             349 // mus_dbz_power
+#define MUS_OP_WE_ARE             350 // mus_op_we_are
+#define MUS_HGSS_LYRA             351 // mus_hgss_Lyra
+#define MUS_HGSS_GAMECORNER       352 // mus_hgss_gamecorner_voltorbflip
+#define MUS_HGSS_POKEMON_CENTER   353 // mus_hgss_pokemon_center
+#define MUS_BW_VS_TRAINER_007F    354 // mus_bw_vs_trainer_007F
 
 #define MUS_NONE                    0xFFFF
 

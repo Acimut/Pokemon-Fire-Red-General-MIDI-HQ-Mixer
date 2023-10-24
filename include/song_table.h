@@ -355,5 +355,14 @@ extern const struct SongHeader mus_encounter_deoxys;
 extern const struct SongHeader mus_trainer_tower;
 extern const struct SongHeader mus_slow_pallet;
 extern const struct SongHeader mus_teachy_tv_menu;
+//new music:
+extern const struct SongHeader mus_dbz_chala;
+extern const struct SongHeader mus_dbz_rec;
+extern const struct SongHeader mus_dbz_power;
+extern const struct SongHeader mus_op_we_are;
+extern const struct SongHeader mus_hgss_Lyra;
+extern const struct SongHeader mus_hgss_gamecorner_voltorbflip;
+extern const struct SongHeader mus_hgss_pokemon_center;
+extern const struct SongHeader mus_bw_vs_trainer_007F;
 
 #endif // GUARD_SONG_TABLE_H

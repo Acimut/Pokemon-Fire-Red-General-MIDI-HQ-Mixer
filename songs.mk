@@ -23,6 +23,32 @@ ACIMUT_CM64 = 327
 
 #	--------------------------------------------------------------
 
+# new music:
+$(MID_SUBDIR)/mus_dbz_chala.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G$(ACIMUT_POWER) -V097
+
+$(MID_SUBDIR)/mus_dbz_rec.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G$(ACIMUT_STD) -V095
+
+$(MID_SUBDIR)/mus_dbz_power.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G$(ACIMUT_ROOM) -V095
+
+$(MID_SUBDIR)/mus_op_we_are.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G$(ACIMUT_STD) -V094
+
+$(MID_SUBDIR)/mus_hgss_Lyra.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G$(ACIMUT_STD) -V092
+
+$(MID_SUBDIR)/mus_hgss_gamecorner_voltorbflip.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G$(ACIMUT_STD) -V088
+
+$(MID_SUBDIR)/mus_hgss_pokemon_center.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G$(ACIMUT_STD) -V090
+
+$(MID_SUBDIR)/mus_bw_vs_trainer_007F.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G$(ACIMUT_CM64) -V091
+
+
 
 $(SONG_BUILDDIR)/%.o: $(MID_SUBDIR)/%.s
 	$(AS) $(ASFLAGS) -I sound -o $@ $<

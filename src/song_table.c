@@ -349,6 +349,15 @@ const struct Song gSongTable[] =
     [MUS_TRAINER_TOWER]         = SONG(mus_trainer_tower, MUSIC_PLAYER_BGM),
     [MUS_SLOW_PALLET]           = SONG(mus_slow_pallet, MUSIC_PLAYER_BGM),
     [MUS_TEACHY_TV_MENU]        = SONG(mus_teachy_tv_menu, MUSIC_PLAYER_BGM),
+    //new music:
+    [MUS_DBZ_CHALA]             = SONG(mus_dbz_chala, MUSIC_PLAYER_BGM),
+    [MUS_DBZ_REC]               = SONG(mus_dbz_rec, MUSIC_PLAYER_BGM),
+    [MUS_DBZ_POWER]             = SONG(mus_dbz_power, MUSIC_PLAYER_BGM),
+    [MUS_OP_WE_ARE]             = SONG(mus_op_we_are, MUSIC_PLAYER_BGM),
+    [MUS_HGSS_LYRA]             = SONG(mus_hgss_Lyra, MUSIC_PLAYER_BGM),
+    [MUS_HGSS_GAMECORNER]       = SONG(mus_hgss_gamecorner_voltorbflip, MUSIC_PLAYER_BGM),
+    [MUS_HGSS_POKEMON_CENTER]   = SONG(mus_hgss_pokemon_center, MUSIC_PLAYER_BGM),
+    [MUS_BW_VS_TRAINER_007F]    = SONG(mus_bw_vs_trainer_007F, MUSIC_PLAYER_BGM),
 };
 
 static const u32 dummy_song_header = 0;

@@ -425,6 +425,15 @@ static const u8 sText_MUS_ENCOUNTER_DEOXYS[] = _("MUS ENCOUNTER DEOXYS");
 static const u8 sText_MUS_TRAINER_TOWER[] = _("MUS TRAINER TOWER");
 static const u8 sText_MUS_SLOW_PALLET[] = _("MUS SLOW PALLET");
 static const u8 sText_MUS_TEACHY_TV_MENU[] = _("MUS TEACHY TV MENU");
+//new music:
+static const u8 sText_MUS_DBZ_CHALA[] = _("DBZ - CHALA");
+static const u8 sText_MUS_DBZ_REC[] = _("DBZ - REC");
+static const u8 sText_MUS_DBZ_POWER[] = _("DBZ - POWER");
+static const u8 sText_MUS_OP_WE_ARE[] = _("ONE PIECE - WE ARE");
+static const u8 sText_MUS_HGSS_LYRA[] = _("HGSS - LYRA");
+static const u8 sText_MUS_HGSS_GAMECORNER[] = _("HGSS - GAMECORNER VOLTORBFLIP");
+static const u8 sText_MUS_HGSS_POKEMON_CENTER[] = _("HGSS - POKEMON CENTER");
+static const u8 sText_MUS_BW_VS_TRAINER_007F[] = _("BW - VS TRAINER 007F");
 
 const u8 *const sText_MusicPlayer[] = {
     //sText_MUS_DUMMY,
@@ -774,6 +783,15 @@ const u8 *const sText_MusicPlayer[] = {
     sText_MUS_TRAINER_TOWER,
     sText_MUS_SLOW_PALLET,
     sText_MUS_TEACHY_TV_MENU,
+//new music:
+    sText_MUS_DBZ_CHALA,
+    sText_MUS_DBZ_REC,
+    sText_MUS_DBZ_POWER,
+    sText_MUS_OP_WE_ARE,
+    sText_MUS_HGSS_LYRA,
+    sText_MUS_HGSS_GAMECORNER,
+    sText_MUS_HGSS_POKEMON_CENTER,
+    sText_MUS_BW_VS_TRAINER_007F,
 };
 
 //--------------------------------------
