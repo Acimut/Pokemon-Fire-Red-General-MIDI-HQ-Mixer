@@ -1,0 +1,97 @@
+# Config
+.vscode/
+*.ini
+
+# Folders
+build/
+
+# Compressed
+*.rar
+*.zip
+
+# Syms
+*.sym
+offsets*.txt
+Script.txt
+
+# GBA
+*.gba
+*.sav
+
+# GBA Graphics
+*.1bpp
+*.4bpp
+*.8bpp
+*.gbapal
+*.lz
+*.latfont
+*.fwjpnfont
+
+# GBA Sounds
+sound/**/*.bin
+sound/songs/midi/*.s
+
+# others
+*.sgm
+*.bak
+*.lnk
+*.dmp
+*.sa1
+*.sg1
+*.ss1
+*.ss2
+*.ss3
+
+# Prerequisites
+*.d
+*.i
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
