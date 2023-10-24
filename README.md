@@ -5,7 +5,7 @@ Esta inyección de código inserta el voicegroup universal de FE7 de Blazer + el
 
 ***Notas:***
 
-- Debido a la poca IWRAM disponible en Pokémon Fire Red, esta inyección desabilita el sistema de ayuda ocpuando la EWRAM que ésta ocupa, y reasignando la RAM necesaria para funcionar.
+- Debido a la poca IWRAM disponible en Pokémon Fire Red, esta inyección desabilita el sistema de ayuda ocupando la EWRAM que ésta ocupa, y reasignando la RAM necesaria para funcionar.
 
 ### Características:
 + Compatible con Pokémon Fire Red 1.0 BPRE.
@@ -16,6 +16,7 @@ Esta inyección de código inserta el voicegroup universal de FE7 de Blazer + el
 + HQ Mixer 4.0 de ipatix.
 + Voicegroup universal (FE7 de Blazer).
 + Increíbles samples de Drumkit por Acimut.
++ Épicos samples de trompeta por Acimut.
 + Posibilidad de expandir y modificar la tabla de canciones.
 + Posibilidad de insertar en espacio expandido.
 + Trae un reproductor para probar las MIDI y los gritos.
