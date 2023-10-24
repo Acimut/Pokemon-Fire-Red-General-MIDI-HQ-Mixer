@@ -130,6 +130,7 @@ rom: main$(ROM_CODE).asm $(BINARY)
 clean:
 	rm -rf $(BINARY)
 	rm -rf $(BUILD)/$(SRC)
+	rm -rf $(SONG_BUILDDIR)
 	rm -rf $(MIDI_ASM)
 	rm -rf $(SAMPLE_SUBDIR)/*.bin
 	rm -rf $(SAMPLE_SUBDIR)/*/*.bin
