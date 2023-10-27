@@ -1257,12 +1257,12 @@ const union VoiceGroup voicegroup_FE7_FretlessBass[] =
 // KeySplitTable23
 const union VoiceGroup voicegroup_FE7_SlapBass1[] =
 {
-    [SAMPLE_VOICE_0]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_0, 255, 252, 51, 235),
-    [SAMPLE_VOICE_1]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_1, 255, 252, 51, 235),
-    [SAMPLE_VOICE_2]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_1, 255, 252, 51, 235),
-    [SAMPLE_VOICE_3]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_1, 255, 252, 51, 235),
-    [SAMPLE_VOICE_4]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_2, 255, 252, 51, 235),
-    [SAMPLE_VOICE_5]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_2, 255, 252, 51, 235),
+    [SAMPLE_VOICE_0]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_31, 255, 0, 255, 235),
+    [SAMPLE_VOICE_1]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_31, 255, 0, 255, 235),
+    [SAMPLE_VOICE_2]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_43, 255, 0, 255, 235),
+    [SAMPLE_VOICE_3]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_43, 255, 0, 255, 235),
+    [SAMPLE_VOICE_4]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_43, 255, 252, 51, 235),
+    [SAMPLE_VOICE_5]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_43, 255, 252, 51, 235),
     [SAMPLE_VOICE_6]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_2, 255, 252, 51, 235),
     [SAMPLE_VOICE_7]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_025_acoustic_guitar_steel_5, 255, 252, 51, 235),
 };
@@ -1273,8 +1273,8 @@ const union VoiceGroup voicegroup_FE7_SlapBass2[] =
     [SAMPLE_VOICE_0]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_037_slap_bass, 255, 252, 51, 235),
     [SAMPLE_VOICE_1]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_037_slap_bass, 255, 252, 51, 235),
     [SAMPLE_VOICE_2]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_037_slap_bass, 255, 252, 51, 235),
-    [SAMPLE_VOICE_3]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_1, 255, 252, 51, 235),
-    [SAMPLE_VOICE_4]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_1, 255, 252, 51, 235),
+    [SAMPLE_VOICE_3]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_43, 255, 252, 51, 235),
+    [SAMPLE_VOICE_4]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_43, 255, 252, 51, 235),
     [SAMPLE_VOICE_5]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_2, 255, 252, 51, 235),
     [SAMPLE_VOICE_6]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_036_slap_bass_2, 255, 252, 51, 235),
     [SAMPLE_VOICE_7]  = VOICE_DIRECTSOUND(NOTE_060, 0, DirectSoundWaveData_FE7_025_acoustic_guitar_steel_5, 255, 252, 51, 235),
