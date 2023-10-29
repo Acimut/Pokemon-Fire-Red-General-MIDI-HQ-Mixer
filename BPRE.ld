@@ -57,7 +57,7 @@ repoint gMPlayTrack_SE1 & gMPlayTrack_SE2
 030027a8 g 00000050 gMPlayTrack_SE3
 */
 gMPlayTrack_SE1 = 0x030025C8;
-gMPlayTrack_SE2 = 0x03003420;/*030028e0 + 0xB40*/
+gMPlayTrack_SE2 = 0x03001CD0;/*03001190 + 0xB40*/
 
 
 /*03001190 l 00000e64 gf_rfu_REQ_api*/
