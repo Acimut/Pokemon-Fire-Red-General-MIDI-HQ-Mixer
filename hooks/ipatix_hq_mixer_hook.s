@@ -322,4 +322,33 @@ bx_r3_TrackStop:
 .org 0x081dd444
     .word ply_mod|1
 
+/*
+Repoint:
+gMPlayTable = 0x084a329c;
+9c 32 4a 08
+8 ocurrencias:
+*/
+.org 0x081DD0D0
+    .word gMPlayTable
+
+.org 0x081DD118
+    .word gMPlayTable
+
+.org 0x081DD14C
+    .word gMPlayTable
+
+.org 0x081DD198
+    .word gMPlayTable
+
+.org 0x081DD1EC
+    .word gMPlayTable
+
+.org 0x081DD220
+    .word gMPlayTable
+
+.org 0x081DD264
+    .word gMPlayTable
+
+.org 0x081DD2B4
+    .word gMPlayTable
 
